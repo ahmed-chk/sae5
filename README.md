@@ -18,7 +18,7 @@ Ce projet est une application web avec une partie backend développée en Node.j
 4. Assurez-vous que MySQL est installé sur votre machine et qu'il est bien actif.
 5. Configurez les paramètres de base de données dans le fichier `app/config/db.config.js`.
 6. Créez la base de données correspondante à l'étape précédente.
-7. Lancez le serveur backend à la racine du projet :
+7. Lancez le serveur backend à la racine du backend :
     ```bash
     node server.js
     ```
