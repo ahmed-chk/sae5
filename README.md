@@ -46,6 +46,6 @@ Ce projet est une application web avec une partie backend développée en Node.j
 ## API
 
 - Il n'y a malheureusement pas de doc pour l'API, mais vous pouvez tout de même retrouver tous les détails dans backend/app/routes.
-- L'API est accesible, une fois l'application backend lancée, à l'adresse [http://localhost:8080](http://localhost:8080).
+- L'API est accesible, une fois l'application backend lancée, sur la base de l'adresse [http://localhost:8080](http://localhost:8080).
 
 L'application frontend nécessite que le backend soit actif pour fonctionner correctement (notamment pour les requêtes avec l'API), donc pensez bien à d'abord lancer le serveur backend avant de lancer le serveur frontend.
