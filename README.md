@@ -34,7 +34,7 @@ Ce projet est une application web avec une partie backend développée en Node.j
     ```bash
     npm install
     ```
-3. Lancez l'application frontend :
+3. Lancez l'application frontend (la toute première fois que vous lancerez, un package supplémentaire va sûrement se télécharger et cela risque de prendre du temps, donc patientez un peu) :
     ```bash
     npm run dev
     ```
@@ -42,5 +42,10 @@ Ce projet est une application web avec une partie backend développée en Node.j
 ## Utilisation
 
 - Accédez à l'application frontend dans votre navigateur à l'adresse [http://localhost:3000](http://localhost:3000).
+
+## API
+
+- Il n'y a malheureusement pas de doc pour l'API, mais vous pouvez tout de même retrouver tous les détails dans backend/app/routes.
+- L'API est accesible, une fois l'application backend lancée, à l'adresse [http://localhost:8080/api](http://localhost:8080/api).
 
 L'application frontend nécessite que le backend soit actif pour fonctionner correctement (notamment pour les requêtes avec l'API), donc pensez bien à d'abord lancer le serveur backend avant de lancer le serveur frontend.
